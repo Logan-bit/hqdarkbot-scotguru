@@ -165,11 +165,11 @@ class Bot(discord.Client):
                 one_check=""
             if answer ==1:
                 #best_answer=":one:"
-            if answer ==2:
+            if answer == 2:
                 two_check = "<:actiontick:719501711483338783>"
             else:
                 two_check=""
-            if answer==2:
+            if answer ==2:
                 #best_answer=":two:"
             if answer == 3:
                 three_check = "<:actiontick:719501711483338783>"
