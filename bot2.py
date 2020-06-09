@@ -186,9 +186,9 @@ class Bot(discord.Client):
 #             if answer == 3:
 #                 three_check = ":x:"            
  
-        self.embed.set_field_at(0, name="Answer I", value="**{0}**{1}.0".format(lst_scores[0], one_check))
-        self.embed.set_field_at(1, name="Answer II", value="**{0}**{2}.0".format(lst_scores[1], two_check))
-        self.embed.set_field_at(2, name="Answer III", value="**{0}**{3}.0".format(lst_scores[2],three_check))
+        self.embed.set_field_at(0, name="Answer I", value="**{0}**{1}".format(lst_scores[0].0, one_check))
+        self.embed.set_field_at(1, name="Answer II", value="**{0}**{1}".format(lst_scores[1].0, two_check))
+        self.embed.set_field_at(2, name="Answer III", value="**{0}**{1}".format(lst_scores[2].0,three_check))
         #self.embed.set_field_at(3,name="Best Answer",value=best_answer)
 
         if self.embed_msg is not None:
